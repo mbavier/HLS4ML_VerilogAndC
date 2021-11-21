@@ -1,0 +1,184 @@
+
+
+================================================================
+== Vivado HLS Report for 'softmax_latency_ap_fixed_ap_fixed_softmax_config5_s'
+================================================================
+* Date:           Fri Nov  5 09:40:27 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        myproject_prj
+* Solution:       solution1
+* Product family: virtexuplus
+* Target device:  xcu250-figd2104-2L-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  | 5.00 ns | 4.362 ns |   0.62 ns  |
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+----------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline |
+    |   min   |   max   |    min    |    max    | min | max |   Type   |
+    +---------+---------+-----------+-----------+-----+-----+----------+
+    |        2|        2| 10.000 ns | 10.000 ns |    1|    1| function |
+    +---------+---------+-----------+-----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++---------------------+---------+-------+---------+---------+------+
+|         Name        | BRAM_18K| DSP48E|    FF   |   LUT   | URAM |
++---------------------+---------+-------+---------+---------+------+
+|DSP                  |        -|     10|        -|        -|     -|
+|Expression           |        -|      -|        0|      168|     -|
+|FIFO                 |        -|      -|        -|        -|     -|
+|Instance             |        -|      -|        -|        -|     -|
+|Memory               |        6|      -|        0|        0|     -|
+|Multiplexer          |        -|      -|        -|        -|     -|
+|Register             |        -|      -|      183|        -|     -|
++---------------------+---------+-------+---------+---------+------+
+|Total                |        6|     10|      183|      168|     0|
++---------------------+---------+-------+---------+---------+------+
+|Available SLR        |     1344|   3072|   864000|   432000|   320|
++---------------------+---------+-------+---------+---------+------+
+|Utilization SLR (%)  |    ~0   |   ~0  |    ~0   |    ~0   |     0|
++---------------------+---------+-------+---------+---------+------+
+|Available            |     5376|  12288|  3456000|  1728000|  1280|
++---------------------+---------+-------+---------+---------+------+
+|Utilization (%)      |    ~0   |   ~0  |    ~0   |    ~0   |     0|
++---------------------+---------+-------+---------+---------+------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP48E: 
+    +----------------------------------------+----------------------------------+-----------+
+    |                Instance                |              Module              | Expression|
+    +----------------------------------------+----------------------------------+-----------+
+    |myproject_mul_mul_14s_18s_26_1_1_U1260  |myproject_mul_mul_14s_18s_26_1_1  |  i0 * i1  |
+    |myproject_mul_mul_14s_18s_26_1_1_U1261  |myproject_mul_mul_14s_18s_26_1_1  |  i0 * i1  |
+    |myproject_mul_mul_14s_18s_26_1_1_U1262  |myproject_mul_mul_14s_18s_26_1_1  |  i0 * i1  |
+    |myproject_mul_mul_14s_18s_26_1_1_U1263  |myproject_mul_mul_14s_18s_26_1_1  |  i0 * i1  |
+    |myproject_mul_mul_14s_18s_26_1_1_U1264  |myproject_mul_mul_14s_18s_26_1_1  |  i0 * i1  |
+    |myproject_mul_mul_14s_18s_26_1_1_U1265  |myproject_mul_mul_14s_18s_26_1_1  |  i0 * i1  |
+    |myproject_mul_mul_14s_18s_26_1_1_U1266  |myproject_mul_mul_14s_18s_26_1_1  |  i0 * i1  |
+    |myproject_mul_mul_14s_18s_26_1_1_U1267  |myproject_mul_mul_14s_18s_26_1_1  |  i0 * i1  |
+    |myproject_mul_mul_14s_18s_26_1_1_U1268  |myproject_mul_mul_14s_18s_26_1_1  |  i0 * i1  |
+    |myproject_mul_mul_14s_18s_26_1_1_U1269  |myproject_mul_mul_14s_18s_26_1_1  |  i0 * i1  |
+    +----------------------------------------+----------------------------------+-----------+
+
+    * Memory: 
+    +-----------------+--------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |      Memory     |                            Module                            | BRAM_18K| FF| LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +-----------------+--------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |exp_table1_U     |softmax_latency_ap_fixed_ap_fixed_softmax_config5_s_exp_tbkb  |        5|  0|   0|    0|  1024|   18|     1|        18432|
+    |invert_table2_U  |softmax_latency_ap_fixed_ap_fixed_softmax_config5_s_invercud  |        1|  0|   0|    0|  1024|   14|     1|        14336|
+    +-----------------+--------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+    |Total            |                                                              |        6|  0|   0|    0|  2048|   32|     2|        32768|
+    +-----------------+--------------------------------------------------------------+---------+---+----+-----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------------------+----------+-------+---+----+------------+------------+
+    |        Variable Name        | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------------------+----------+-------+---+----+------------+------------+
+    |add_ln703_1_fu_408_p2        |     +    |      0|  0|  18|          18|          18|
+    |add_ln703_2_fu_414_p2        |     +    |      0|  0|  18|          18|          18|
+    |add_ln703_3_fu_420_p2        |     +    |      0|  0|  18|          18|          18|
+    |add_ln703_4_fu_426_p2        |     +    |      0|  0|  18|          18|          18|
+    |add_ln703_5_fu_432_p2        |     +    |      0|  0|  18|          18|          18|
+    |add_ln703_6_fu_438_p2        |     +    |      0|  0|  18|          18|          18|
+    |add_ln703_7_fu_444_p2        |     +    |      0|  0|  18|          18|          18|
+    |add_ln703_fu_402_p2          |     +    |      0|  0|  18|          18|          18|
+    |exp_sum_V_fu_450_p2          |     +    |      0|  0|  18|          18|          18|
+    |ap_block_pp0_stage0_11001    |    and   |      0|  0|   2|           1|           1|
+    |ap_block_pp0_stage0_subdone  |    or    |      0|  0|   2|           1|           1|
+    |ap_enable_pp0                |    xor   |      0|  0|   2|           1|           2|
+    +-----------------------------+----------+-------+---+----+------------+------------+
+    |Total                        |          |      0|  0| 168|         165|         166|
+    +-----------------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    +-------------------------+----+----+-----+-----------+
+    |           Name          | FF | LUT| Bits| Const Bits|
+    +-------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2  |   1|   0|    1|          0|
+    |exp_res_0_V_reg_775      |  18|   0|   18|          0|
+    |exp_res_1_V_reg_780      |  18|   0|   18|          0|
+    |exp_res_2_V_reg_785      |  18|   0|   18|          0|
+    |exp_res_3_V_reg_790      |  18|   0|   18|          0|
+    |exp_res_4_V_reg_795      |  18|   0|   18|          0|
+    |exp_res_5_V_reg_800      |  18|   0|   18|          0|
+    |exp_res_6_V_reg_805      |  18|   0|   18|          0|
+    |exp_res_7_V_reg_810      |  18|   0|   18|          0|
+    |exp_res_8_V_reg_815      |  18|   0|   18|          0|
+    |exp_res_9_V_reg_820      |  18|   0|   18|          0|
+    +-------------------------+----+----+-----+-----------+
+    |Total                    | 183|   0|  183|          0|
+    +-------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------+-----+-----+------------+----------------------------------------------------+--------------+
+|   RTL Ports   | Dir | Bits|  Protocol  |                    Source Object                   |    C Type    |
++---------------+-----+-----+------------+----------------------------------------------------+--------------+
+|ap_clk         |  in |    1| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_rst         |  in |    1| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_start       |  in |    1| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_done        | out |    1| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_idle        | out |    1| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_ready       | out |    1| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_ce          |  in |    1| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_return_0    | out |   16| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_return_1    | out |   16| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_return_2    | out |   16| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_return_3    | out |   16| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_return_4    | out |   16| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_return_5    | out |   16| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_return_6    | out |   16| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_return_7    | out |   16| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_return_8    | out |   16| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|ap_return_9    | out |   16| ap_ctrl_hs | softmax_latency<ap_fixed,ap_fixed,softmax_config5> | return value |
+|data_0_V_read  |  in |   16|   ap_none  |                    data_0_V_read                   |    scalar    |
+|data_1_V_read  |  in |   16|   ap_none  |                    data_1_V_read                   |    scalar    |
+|data_2_V_read  |  in |   16|   ap_none  |                    data_2_V_read                   |    scalar    |
+|data_3_V_read  |  in |   16|   ap_none  |                    data_3_V_read                   |    scalar    |
+|data_4_V_read  |  in |   16|   ap_none  |                    data_4_V_read                   |    scalar    |
+|data_5_V_read  |  in |   16|   ap_none  |                    data_5_V_read                   |    scalar    |
+|data_6_V_read  |  in |   16|   ap_none  |                    data_6_V_read                   |    scalar    |
+|data_7_V_read  |  in |   16|   ap_none  |                    data_7_V_read                   |    scalar    |
+|data_8_V_read  |  in |   16|   ap_none  |                    data_8_V_read                   |    scalar    |
+|data_9_V_read  |  in |   16|   ap_none  |                    data_9_V_read                   |    scalar    |
++---------------+-----+-----+------------+----------------------------------------------------+--------------+
+

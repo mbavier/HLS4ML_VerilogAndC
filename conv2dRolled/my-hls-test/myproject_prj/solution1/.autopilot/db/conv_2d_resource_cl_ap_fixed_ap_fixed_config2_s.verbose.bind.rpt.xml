@@ -1,0 +1,173 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'conv_2d_resource_cl_ap_fixed_ap_fixed_config2_s'" level="0">
+<item name = "Date">Fri Nov  5 09:38:11 2021
+</item>
+<item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
+<item name = "Project">myproject_prj</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcu250-figd2104-2L-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00 ns, 3.816 ns, 0.62 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">2, 2, 10.000 ns, 10.000 ns, 1, 1, function</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="call_ret1_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_32">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret3_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_42">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret5_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_52">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret7_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_62">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret9_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_72">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret11_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_82">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret13_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_92">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret15_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_102">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret17_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_112">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret19_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_122">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret21_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_132">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret23_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_142">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret25_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_152">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret27_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_162">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret29_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_172">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret31_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_182">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret33_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_192">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret35_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_202">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret37_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_212">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret39_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_222">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret41_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_232">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret43_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_242">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret45_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_252">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret47_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_262">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret49_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_272">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret51_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_282">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret53_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_292">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret55_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_302">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret57_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_312">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret59_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_322">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret61_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_332">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret63_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_342">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret65_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_352">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret67_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_362">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret69_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_372">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret71_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_382">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret73_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_392">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret75_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_402">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret77_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_412">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret79_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_422">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret81_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_432">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret83_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_442">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret85_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_452">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret87_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_462">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret89_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_472">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret91_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_482">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret93_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_492">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret95_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_502">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret97_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_512">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret99_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_522">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret101_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_532">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret103_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_542">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret105_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_552">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret107_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_562">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret109_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_572">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret111_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_582">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret113_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_592">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret115_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_602">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret117_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_612">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret119_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_622">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret121_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_632">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret123_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_642">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret125_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_652">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret_im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s_fu_662">im2col_2d_cl_ap_fixed_16_6_5_3_0_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_672">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_685">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_698">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_711">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_724">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_737">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_750">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_763">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_776">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_789">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_802">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_815">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_828">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_841">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_854">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_867">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_880">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_893">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_906">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_919">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_932">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_945">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_958">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_971">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_984">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_997">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1010">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1023">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1036">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1049">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1062">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1075">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1088">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1101">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1114">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1127">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1140">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1153">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1166">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1179">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1192">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1205">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1218">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1231">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1244">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1257">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1270">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1283">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1296">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1309">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1322">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1335">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1348">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1361">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1374">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1387">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1400">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1413">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1426">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1439">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1452">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1465">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1478">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_dense_resource_ap_fixed_ap_fixed_config2_mult_s_fu_1491">dense_resource_ap_fixed_ap_fixed_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

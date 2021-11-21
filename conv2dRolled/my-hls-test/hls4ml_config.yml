@@ -1,0 +1,12 @@
+Backend: Vivado
+ClockPeriod: 5
+HLSConfig:
+  Model:
+    Precision: ap_fixed<16,6>
+    ReuseFactor: '50'
+IOType: io_stream
+KerasModel: !keras_model 'my-hls-test/keras_model.h5'
+OutputDir: my-hls-test
+ProjectName: myproject
+Stamp: 6b8BAa1b
+XilinxPart: xcu250-figd2104-2L-e
