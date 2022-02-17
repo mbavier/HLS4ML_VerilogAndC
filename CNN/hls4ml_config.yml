@@ -1,0 +1,46 @@
+Backend: Vivado
+Board: null
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    conv2d_1:
+      Precision:
+        bias: ap_fixed<16,6>
+        result: ap_fixed<16,6>
+        weight: ap_fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+    conv2d_1_input:
+      Precision:
+        result: ap_fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+    conv2d_1_relu:
+      Precision: ap_fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+      table_size: 1024
+      table_t: ap_fixed<18,8>
+    dense_1:
+      Precision:
+        bias: ap_fixed<16,6>
+        result: ap_fixed<16,6>
+        weight: ap_fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Latency
+    dense_1_softmax:
+      Precision: ap_fixed<16,6>
+      ReuseFactor: 1
+      Strategy: Stable
+      table_size: 1024
+      table_t: ap_fixed<18,8>
+  Model:
+    Precision: ap_fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+IOType: io_stream
+KerasModel: !keras_model 'cnn//keras_model.h5'
+OutputDir: cnn/
+ProjectName: myproject
+Stamp: F1C7505B
+XilinxPart: xcu250-figd2104-2L-e
